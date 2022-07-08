@@ -122,4 +122,21 @@ Instructions
 
 Write-up for PA2
 ----------------
+Foram definidos os "names"
+NUMBER -> Numeros
+ALPHANUMERIC -> Numeros e letras
+TYPEID -> Definem o nome de um tipo, começam com letras maiúsculas obrigatoriamente e podem ter tanto letras e números
+OBJECTID -> Definem o nome de um objeto, começam com letras minúsculas obrigatoriamente e podem ter tanto letras e números
 
+Foi definido comentários e o erro que acontece ao encontrar
+um EOF no meio do mesmo. A mensagem de erro exibida é a solicitada "EOF in comment".
+
+True e False foram definidos com seus valores booleanos (1 e 0)
+alem de serem case insensitive para evitar chamadas erradas com seus nomes
+
+Strings foram definidas verificando se seus caracteres contem caracteres especiais,
+comentarios ou EOF e os tratando de acordo com a necessidade dos mesmos.
+Tambem foi feita a exibição de erros em casos especificos como quando a string
+é maior do que o tamanho setado de 1024, a mensagem exibida é "String constant too long"
+
+Os nomes NUMBER, TYPEID, OBJECTID são adicionados aos simbolos e tem seus valores retornados
